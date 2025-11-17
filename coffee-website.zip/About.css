@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 687px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-image:url(back\ 3.jpg);
+    size: 100px;
+}
+
+nav{
+    display: flex;
+    gap: 600px;
+    align-items: center;
+}
+
+.container nav ul{
+    display: flex;
+}
+
+.container nav ul li{
+    list-style-type: none;
+    padding-right: 35px;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container nav ul li a:hover{
+    text-decoration: none;
+    color: #c0e639;
+    
+}
+
+.nav-button{
+    padding: 5px 10px ;
+    background: transparent;
+    color: #fff;
+    border :solid #fff 1.5px ;
+    cursor: pointer;
+}
+
+.logo{
+    padding: 10px 0px 10px 55px;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: solid navajowhite 2px;
+}
+
+.container2{
+    max-height: 400px;
+    max-width: 1200px;
+    padding: 100px;
+    margin: 20px auto;
+}
+
+.about{
+    display: flex;
+    background-color: #ffffff;
+}
+
+.about img{
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+}
+
+.about p{
+    padding: 20px;
+    line-height: 23PX;
+}
+
+.about b{
+    margin: 10px 10px 10px 0px;
+    font-size: larger;
+    padding: 30px 0px 30px 0px;
+}
+
+.container3{
+    background-color: rgb(204, 183, 152);
+    padding: 25PX;
+}
+
+.container3 h1{
+    text-align: center;
+    padding: 25px;
+}
+
+.photo{
+    display: flex;
+    gap: 60PX;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.member img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px black solid;
+    padding: 3px;
+
+}
+
+.member p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(24, 15, 4);
+}
+
+.member p b{
+    text-align: center;
+    font-size: small;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: rgb(24, 15, 4);
+    color: blanchedalmond;
+    max-height: 300px;
+    width: 1330px;
+}
+
+.footer .conttt{
+    padding: 50px;
+    display: flex;
+    gap: 80px; 
+}
+.detals h1{
+    cursor: pointer;
+}
+
+.detals h1:hover{
+    color: #fff;
+}
+
+.icn img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.icn img:hover{
+    transform: translateY(-4px);
+}
+
+.detals h3{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.detals h3:hover{
+    transform: translateY(-3px);
+    color: rgb(255, 255, 255);
+}
+.detals p{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.detals p:hover{
+    transform: translateY(-3px);
+    color: rgb(255, 255, 255);
+}
